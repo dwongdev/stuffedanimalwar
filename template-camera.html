@@ -190,10 +190,6 @@
                 margin-bottom: 20px;
             }
 
-            #localCameraSection {
-                margin-bottom: 20px;
-            }
-
             .camera-card {
                 background: rgba(0, 0, 0, 0.5);
                 border-radius: 12px;
@@ -258,12 +254,6 @@
                     position: relative;
                     z-index: 2;
                 }
-            }
-
-            .local-camera-grid {
-                display: grid;
-                grid-template-columns: 1fr;
-                gap: 8px;
             }
 
             .local-camera {
@@ -685,11 +675,8 @@
                     </div>
                 </div>
 
-                <!-- Local Camera Previews in Sidebar -->
+                <!-- Local camera section hidden; local cameras now appear in the main grid -->
                 <div id="localCameraSection" style="display: none;">
-                    <div id="localCameraGrid" class="local-camera-grid">
-                        <!-- Camera cards inserted dynamically by startAllCameras() -->
-                    </div>
                 </div>
             </div>
 
@@ -1072,7 +1059,7 @@
                     console.log('Camera name set to:', myCameraName || '(default)');
 
                     // Update all local camera labels
-                    document.querySelectorAll('#localCameraGrid .local-camera-peer-name').forEach(span => {
+                    document.querySelectorAll('#remoteCameraGrid .local-camera .local-camera-peer-name').forEach(span => {
                         span.textContent = myCameraName || 'You';
                     });
 
@@ -1159,7 +1146,7 @@
                         });
 
                         // Resume all local camera videos if paused
-                        document.querySelectorAll('#localCameraGrid video').forEach(function(localVideo) {
+                        document.querySelectorAll('#remoteCameraGrid .local-camera video').forEach(function(localVideo) {
                             if (localVideo.paused && localVideo.srcObject) {
                                 localVideo.play().catch(function(err) {
                                     console.log('Could not resume local video:', err);
@@ -1545,10 +1532,11 @@
             // Open a single camera (used in single-camera fallback mode)
             async function startSingleCamera(deviceId) {
                 const localCameraSection = document.getElementById('localCameraSection');
-                const localCameraGrid = document.getElementById('localCameraGrid');
+                const remoteCameraGrid = document.getElementById('remoteCameraGrid');
                 const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
-                localCameraGrid.innerHTML = '';
+                // Remove existing local camera cards from the grid
+                remoteCameraGrid.querySelectorAll('.local-camera').forEach(function(el) { el.remove(); });
                 localCameraStreams.clear();
                 localCameraNames.clear();
 
@@ -1574,7 +1562,7 @@
                 localCameraStreams.set(actualDeviceId, { stream: stream, name: deviceLabel });
 
                 const card = createLocalCameraCard(actualDeviceId, deviceLabel, stream);
-                localCameraGrid.appendChild(card);
+                remoteCameraGrid.insertBefore(card, remoteCameraGrid.querySelector('.camera-card:not(.local-camera)'));
 
                 const video = card.querySelector('video');
                 await video.play();
@@ -1645,7 +1633,7 @@
 
             async function startAllCameras() {
                 const localCameraSection = document.getElementById('localCameraSection');
-                const localCameraGrid = document.getElementById('localCameraGrid');
+                const remoteCameraGrid = document.getElementById('remoteCameraGrid');
 
                 console.log('Starting all cameras...');
 
@@ -1697,8 +1685,8 @@
 
                 console.log('Found', videoDevices.length, 'camera(s) after permission grant');
 
-                // Clear previous state
-                localCameraGrid.innerHTML = '';
+                // Clear previous local camera cards from the grid
+                remoteCameraGrid.querySelectorAll('.local-camera').forEach(function(el) { el.remove(); });
                 localCameraStreams.clear();
                 localCameraNames.clear();
                 isSingleCameraMode = false;
@@ -1786,12 +1774,14 @@
                 }
 
                 // All cameras opened successfully (or just one in single mode) - set up UI
+                // Insert local camera cards at the beginning of the remote grid
+                var firstPeerCard = remoteCameraGrid.querySelector('.camera-card:not(.local-camera)');
                 for (let i = 0; i < openedStreams.length; i++) {
                     var s = openedStreams[i];
                     localCameraStreams.set(s.deviceId, { stream: s.stream, name: s.deviceLabel });
 
                     var card = createLocalCameraCard(s.deviceId, s.deviceLabel, s.stream);
-                    localCameraGrid.appendChild(card);
+                    remoteCameraGrid.insertBefore(card, firstPeerCard);
 
                     var video = card.querySelector('video');
                     await video.play();
@@ -1953,8 +1943,8 @@
                     localCameraStreams.clear();
                     localCameraNames.clear();
 
-                    // Clear local camera grid
-                    document.getElementById('localCameraGrid').innerHTML = '';
+                    // Remove local camera cards from the main grid
+                    document.getElementById('remoteCameraGrid').querySelectorAll('.local-camera').forEach(function(el) { el.remove(); });
                     localCameraSection.style.display = 'none';
 
                     button.classList.remove('active');
@@ -1966,6 +1956,8 @@
 
                     document.getElementById('status').textContent = 'Camera disabled';
                     document.getElementById('status').className = 'status disconnected';
+
+                    updateEmptyState();
                 }
             }
 
@@ -2149,8 +2141,9 @@
             function updateEmptyState() {
                 const remoteCameraGrid = document.getElementById('remoteCameraGrid');
                 const emptyState = document.getElementById('emptyState');
-                const hasRemoteCameras = remoteCameraGrid.children.length > 0;
-                emptyState.style.display = hasRemoteCameras ? 'none' : 'block';
+                // Count only non-local camera cards (peer cameras)
+                const hasCameras = remoteCameraGrid.querySelectorAll('.camera-card').length > 0;
+                emptyState.style.display = hasCameras ? 'none' : 'block';
             }
 
             // Monitor if video element is actually rendering frames
