@@ -98,8 +98,8 @@
     },
     "mediaObject": {
         "songspath": "https://analogarchive.com/b2proxy/analog/",
-        "videospath": "https://jaemzware.com/media/media/audelia/",
-        "photospath": "https://jaemzware.com/media/media/audelia/",,
+        "videospath": "https://jaemzware.com/media/media/xxx/",
+        "photospath": "https://jaemzware.com/media/media/xxx/",
         "songs": [
             {
                 "file": "audiparamount20210805.mp4",
@@ -107,256 +107,113 @@
             }
         ],
         "photos": [
-            {
-                "file": "IMG_0024.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0168.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0197.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0198.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0199.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0334.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0338.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0396.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0397.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0405.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0406.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0407.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0560.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0630.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0632.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0634.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_0805.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2392.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2405.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2500.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2538.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2558.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2559.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2560.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2561.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2562.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2563.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2706.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2708.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2711.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2715.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2716.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2720.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2724.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2731.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2735.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2737.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2741.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_2771.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_8233.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_8303.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_8311.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_8361.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_8741.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_8765.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_8781.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_8784.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_8893.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_9362.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_9363.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_9376.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_9381.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_9383.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_9386.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_9389.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_9394.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_9538.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_9567.JPG",
-                "title": "photo by jim"
-            },
-            {
-                "file": "IMG_9784.JPG",
-                "title": "photo by jim"
-            }
-        ],
-        "videos": [
-            {
-                "file": "https://skatecreteordie.s3.us-east-005.backblazeb2.com/content/del.mp4",
-                "title": "Delridge ATV",
-                "poster": "https://skatecreteordie.s3.us-east-005.backblazeb2.com/production/skatecreteordiedeck.png"
-            },
-            {
-                "file": "https://skatecreteordie.com/marg.mp4",
-                "title": "Marg",
-                "poster": "https://skatecreteordie.s3.us-east-005.backblazeb2.com/production/skatecreteordiedeck.png"
-            }
-        ]
-    },
+            ],
+            "videos": [
+                {"file":"2.jpg","title":"2.jpg","poster":""},
+                {"file":"3.jpg","title":"3.jpg","poster":""},
+                {"file":"4.jpg","title":"4.jpg","poster":""},
+                {"file":"4BAC6C1B-91CB-431C-9777-C7A68607B2B7.MOV","title":"4BAC6C1B-91CB-431C-9777-C7A68607B2B7.MOV","poster":""},
+                {"file":"5CAC2836-3641-4584-8043-D8C44622EED9.mov","title":"5CAC2836-3641-4584-8043-D8C44622EED9.mov","poster":""},
+                {"file":"9819e6_08b8e33a36e045bd91566eeb1a36a93a.jpg","title":"9819e6_08b8e33a36e045bd91566eeb1a36a93a.jpg","poster":""},
+                {"file":"9819e6_245b533bbcbf42ecb61d88e41d4079b6.jpg","title":"9819e6_245b533bbcbf42ecb61d88e41d4079b6.jpg","poster":""},
+                {"file":"9819e6_2c0e39d0b8a246e8b5f02bcc3f646a0d.jpg","title":"9819e6_2c0e39d0b8a246e8b5f02bcc3f646a0d.jpg","poster":""},
+                {"file":"9819e6_2ea51bab02694fa6a89035cbcd2565ee.jpg","title":"9819e6_2ea51bab02694fa6a89035cbcd2565ee.jpg","poster":""},
+                {"file":"9819e6_7d4557439f6f4ce6a8324e1ed49ada70.jpg","title":"9819e6_7d4557439f6f4ce6a8324e1ed49ada70.jpg","poster":""},
+                {"file":"9819e6_92166c18634548ffabeb723c6854412a.jpg","title":"9819e6_92166c18634548ffabeb723c6854412a.jpg","poster":""},
+                {"file":"9819e6_93976eb499604988ba86402f2919d45d.jpg","title":"9819e6_93976eb499604988ba86402f2919d45d.jpg","poster":""},
+                {"file":"9819e6_a3a44e5dbeab4b15917c02f534dc7e6d.jpg","title":"9819e6_a3a44e5dbeab4b15917c02f534dc7e6d.jpg","poster":""},
+                {"file":"9819e6_a3a44e5dbeab4b15917c02f534dc7e6djy.jpg","title":"9819e6_a3a44e5dbeab4b15917c02f534dc7e6djy.jpg","poster":""},
+                {"file":"9819e6_a45720d22973452fa996ec9619da12a0.jpg","title":"9819e6_a45720d22973452fa996ec9619da12a0.jpg","poster":""},
+                {"file":"9819e6_aa518afa8e414e15aea55093d9da6c50.jpg","title":"9819e6_aa518afa8e414e15aea55093d9da6c50.jpg","poster":""},
+                {"file":"9819e6_f59868706a824b01bee04766b946a1d0.jpg","title":"9819e6_f59868706a824b01bee04766b946a1d0.jpg","poster":""},
+                {"file":"9819e6_fa78479c263e4332b87725693dbb36f4.jpg","title":"9819e6_fa78479c263e4332b87725693dbb36f4.jpg","poster":""},
+                {"file":"IMG_0538.JPG","title":"IMG_0538.JPG","poster":""},
+                {"file":"IMG_0539.JPG","title":"IMG_0539.JPG","poster":""},
+                {"file":"IMG_0540.JPG","title":"IMG_0540.JPG","poster":""},
+                {"file":"IMG_0541.MOV","title":"IMG_0541.MOV","poster":""},
+                {"file":"IMG_0542.MOV","title":"IMG_0542.MOV","poster":""},
+                {"file":"IMG_0543.JPG","title":"IMG_0543.JPG","poster":""},
+                {"file":"IMG_0544.JPG","title":"IMG_0544.JPG","poster":""},
+                {"file":"IMG_0545.JPG","title":"IMG_0545.JPG","poster":""},
+                {"file":"IMG_0546.JPG","title":"IMG_0546.JPG","poster":""},
+                {"file":"IMG_0547.MOV","title":"IMG_0547.MOV","poster":""},
+                {"file":"IMG_0548.MOV","title":"IMG_0548.MOV","poster":""},
+                {"file":"IMG_0549.JPG","title":"IMG_0549.JPG","poster":""},
+                {"file":"IMG_0562 copy.jpg'","title":"IMG_0562 copy.jpg'","poster":""},
+                {"file":"IMG_3186.JPG","title":"IMG_3186.JPG","poster":""},
+                {"file":"IMG_3187.JPG","title":"IMG_3187.JPG","poster":""},
+                {"file":"IMG_3189.JPG","title":"IMG_3189.JPG","poster":""},
+                {"file":"IMG_3190.JPG","title":"IMG_3190.JPG","poster":""},
+                {"file":"IMG_3191.JPG","title":"IMG_3191.JPG","poster":""},
+                {"file":"IMG_3192.JPG","title":"IMG_3192.JPG","poster":""},
+                {"file":"IMG_3193.JPG","title":"IMG_3193.JPG","poster":""},
+                {"file":"IMG_3194.JPG","title":"IMG_3194.JPG","poster":""},
+                {"file":"IMG_3234.JPG","title":"IMG_3234.JPG","poster":""},
+                {"file":"IMG_3235.JPG","title":"IMG_3235.JPG","poster":""},
+                {"file":"IMG_3888.JPG","title":"IMG_3888.JPG","poster":""},
+                {"file":"IMG_3889.JPG","title":"IMG_3889.JPG","poster":""},
+                {"file":"IMG_3890.JPG","title":"IMG_3890.JPG","poster":""},
+                {"file":"IMG_4054.JPG","title":"IMG_4054.JPG","poster":""},
+                {"file":"IMG_4055.JPG","title":"IMG_4055.JPG","poster":""},
+                {"file":"IMG_4056.JPG","title":"IMG_4056.JPG","poster":""},
+                {"file":"IMG_4057.JPG","title":"IMG_4057.JPG","poster":""},
+                {"file":"IMG_5691a copy.jpg'","title":"IMG_5691a copy.jpg'","poster":""},
+                {"file":"IMG_5918.MOV","title":"IMG_5918.MOV","poster":""},
+                {"file":"IMG_5919.JPG","title":"IMG_5919.JPG","poster":""},
+                {"file":"LaPerla1.jpg","title":"LaPerla1.jpg","poster":""},
+                {"file":"Movie on 8-2-15 at 9.34 PM.mov'","title":"Movie on 8-2-15 at 9.34 PM.mov'","poster":""},
+                {"file":"aphrodite.jpg","title":"aphrodite.jpg","poster":""},
+                {"file":"aphrodite2.jpg","title":"aphrodite2.jpg","poster":""},
+                {"file":"audiparamount20210805.mp4","title":"audiparamount20210805.mp4","poster":""},
+                {"file":"betty.jpg","title":"betty.jpg","poster":""},
+                {"file":"betty1m7s.mov","title":"betty1m7s.mov","poster":""},
+                {"file":"betty23s.mov","title":"betty23s.mov","poster":""},
+                {"file":"betty2m48s.mov","title":"betty2m48s.mov","poster":""},
+                {"file":"betty31s.mov","title":"betty31s.mov","poster":""},
+                {"file":"betty9m19s.mov","title":"betty9m19s.mov","poster":""},
+                {"file":"bettydatydato.mov","title":"bettydatydato.mov","poster":""},
+                {"file":"bettydatydatolazydogstraightbbbj.mov","title":"bettydatydatolazydogstraightbbbj.mov","poster":""},
+                {"file":"bettydatyohya.mov","title":"bettydatyohya.mov","poster":""},
+                {"file":"bettydoggystandingup.mov","title":"bettydoggystandingup.mov","poster":""},
+                {"file":"bettykneesupmission.mov","title":"bettykneesupmission.mov","poster":""},
+                {"file":"bettyonbed.JPG","title":"bettyonbed.JPG","poster":""},
+                {"file":"bettyonbedsmall.JPG","title":"bettyonbedsmall.JPG","poster":""},
+                {"file":"bettyphoto 2.jpg'","title":"bettyphoto 2.jpg'","poster":""},
+                {"file":"bettyphoto.jpg","title":"bettyphoto.jpg","poster":""},
+                {"file":"bettyphotosessionone01.jpg","title":"bettyphotosessionone01.jpg","poster":""},
+                {"file":"bettyphotosessionone03.jpg","title":"bettyphotosessionone03.jpg","poster":""},
+                {"file":"bettyphotosessionone04.jpg","title":"bettyphotosessionone04.jpg","poster":""},
+                {"file":"bettyphotosessionone05.jpg","title":"bettyphotosessionone05.jpg","poster":""},
+                {"file":"bettyphotosessionone06.jpg","title":"bettyphotosessionone06.jpg","poster":""},
+                {"file":"bettyphotosessionone07.jpg","title":"bettyphotosessionone07.jpg","poster":""},
+                {"file":"bettyphotosessionone08.jpg","title":"bettyphotosessionone08.jpg","poster":""},
+                {"file":"bettyselfie.jpg","title":"bettyselfie.jpg","poster":""},
+                {"file":"dog.mp4","title":"dog.mp4","poster":""},
+                {"file":"image (1).jpg'","title":"image (1).jpg'","poster":""},
+                {"file":"image (2).jpg'","title":"image (2).jpg'","poster":""},
+                {"file":"image (3).jpg'","title":"image (3).jpg'","poster":""},
+                {"file":"image (4).jpg'","title":"image (4).jpg'","poster":""},
+                {"file":"image (5).jpg'","title":"image (5).jpg'","poster":""},
+                {"file":"image (6).jpg'","title":"image (6).jpg'","poster":""},
+                {"file":"image (7).jpg'","title":"image (7).jpg'","poster":""},
+                {"file":"image (8).jpg'","title":"image (8).jpg'","poster":""},
+                {"file":"image.jpg","title":"image.jpg","poster":""},
+                {"file":"lilithlazydog.mp4","title":"lilithlazydog.mp4","poster":""},
+                {"file":"lillith201509.mov","title":"lillith201509.mov","poster":""},
+                {"file":"lillith201509.mp4","title":"lillith201509.mp4","poster":""},
+                {"file":"lillithbbbj.MOV","title":"lillithbbbj.MOV","poster":""},
+                {"file":"lillithbbj.MOV","title":"lillithbbj.MOV","poster":""},
+                {"file":"lillithfinger.mp4","title":"lillithfinger.mp4","poster":""},
+                {"file":"lillithfingerplay.MOV","title":"lillithfingerplay.MOV","poster":""},
+                {"file":"lillithlazydog.mov","title":"lillithlazydog.mov","poster":""},
+                {"file":"lillithmissionary.mov","title":"lillithmissionary.mov","poster":""},
+                {"file":"lillithmissionary.mp4","title":"lillithmissionary.mp4","poster":""},
+                {"file":"permissions.sh","title":"permissions.sh","poster":""},
+                {"file":"self.jpg","title":"self.jpg","poster":""},
+                {"file":"socksahh.mp4","title":"socksahh.mp4","poster":""},
+                {"file":"socksow.mp4","title":"socksow.mp4","poster":""}
+            ]
+    }
     "responsesObject": {
         "responses": [
             {
