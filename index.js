@@ -402,7 +402,7 @@ const activeBroadcasters = new Map();
 //     const jimEndpoint = `jim${paddedNumber}`;
 //     stuffedAnimalWarEndpoints.push(jimEndpoint);
 //     stuffedAnimalWarPageCounters[jimEndpoint] = 0; // Initialize counter for this endpoint
-// }
+//
 
 // Load canvas template HTML at startup (RIP SVG - we canvas-only now)
 let templateCanvasHtml = fs.readFileSync(path.join(__dirname, 'template-canvas.html'), 'utf8');
