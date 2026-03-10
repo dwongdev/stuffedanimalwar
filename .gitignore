@@ -104,3 +104,5 @@ public
 .env
 
 deploy*
+endpoints/xxx.json
+xxx.json
